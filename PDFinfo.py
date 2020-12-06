@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-''' PDFinfo v1.0 by rjb-21 returns various information about PDF documents '''
+''' PDFinfo v1.1 by rjb-21 returns various information about PDF documents '''
 
 
 import PyPDF2
 import os
 
 
-print("\nPDFinfo v1.0 by rjb-21 returns various information about PDF documents")
+print("\nPDFinfo v1.1 by rjb-21 returns various information about PDF documents")
 
 
 while True:
@@ -28,7 +28,6 @@ pdfReader = PyPDF2.PdfFileReader(file)
 
 # Number of pages
 numPages = pdfReader.numPages
-numPages
 
 
 pdfTextList =[]
